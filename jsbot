@@ -57,7 +57,7 @@
       curates: 0
     };
 
-    settings.prototype.pupScriptUrl = 'https://raw.github.com/Brutos/chatbotvm/master/.gitignore';
+    settings.prototype.pupScriptUrl = 'https://raw.github.com/Cretiino/catbot-sala-Treta.com/master/jsbot';
 
     settings.prototype.afkTime = 15 * 60 * 1000;
 
@@ -683,7 +683,7 @@
     }
 
     whyWootCommand.prototype.init = function() {
-      this.command = '!Brutos';
+      this.command = '!lei';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
@@ -815,7 +815,7 @@
 
     sourceCommand.prototype.functionality = function() {
       var msg;
-      msg = ' BOT criado por Backus e editado por brutos para a Electro, Trap e Dubstep Brasil ';
+      msg = ' BOT criado por Backus e editado por cretino para a sala treta.com ';
       return API.sendChat(msg);
     };
 
@@ -832,7 +832,7 @@
     }
 
     wootCommand.prototype.init = function() {
-      this.command = '!autowoot';
+      this.command = '!bot';
       this.parseType = 'startsWith';
       return this.rankPrivelege = 'featured';
     };
